@@ -1,0 +1,2719 @@
+<!DOCTYPE html><html lang="en" class="cormorant_garamond_67a068a2-module__V87w9W__variable dm_sans_5f4ec4b2-module__nXXfQq__variable h-full"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><style>
+/* [next]/internal/font/google/cormorant_garamond_67a068a2.module.css [app-client] (css) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cormorant_garamond_67a068a2-module__V87w9W__className {
+  font-family: Cormorant Garamond, Cormorant Garamond Fallback;
+  font-style: normal;
+}
+
+.cormorant_garamond_67a068a2-module__V87w9W__variable {
+  --font-display: "Cormorant Garamond", "Cormorant Garamond Fallback";
+}
+
+/* [next]/internal/font/google/dm_sans_5f4ec4b2.module.css [app-client] (css) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dm_sans_5f4ec4b2-module__nXXfQq__className {
+  font-family: DM Sans, DM Sans Fallback;
+  font-style: normal;
+}
+
+.dm_sans_5f4ec4b2-module__nXXfQq__variable {
+  --font-body: "DM Sans", "DM Sans Fallback";
+}
+
+/* [project]/src/app/globals.css [app-client] (css) */
+@layer properties {
+  @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+    *, :before, :after, ::backdrop {
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-translate-z: 0;
+      --tw-space-y-reverse: 0;
+      --tw-border-style: solid;
+      --tw-leading: initial;
+      --tw-font-weight: initial;
+      --tw-tracking: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-blur: initial;
+      --tw-brightness: initial;
+      --tw-contrast: initial;
+      --tw-grayscale: initial;
+      --tw-hue-rotate: initial;
+      --tw-invert: initial;
+      --tw-opacity: initial;
+      --tw-saturate: initial;
+      --tw-sepia: initial;
+      --tw-drop-shadow: initial;
+      --tw-drop-shadow-color: initial;
+      --tw-drop-shadow-alpha: 100%;
+      --tw-drop-shadow-size: initial;
+      --tw-backdrop-blur: initial;
+      --tw-backdrop-brightness: initial;
+      --tw-backdrop-contrast: initial;
+      --tw-backdrop-grayscale: initial;
+      --tw-backdrop-hue-rotate: initial;
+      --tw-backdrop-invert: initial;
+      --tw-backdrop-opacity: initial;
+      --tw-backdrop-saturate: initial;
+      --tw-backdrop-sepia: initial;
+      --tw-duration: initial;
+    }
+  }
+}
+
+@layer theme {
+  :root, :host {
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --color-white: #fff;
+    --spacing: .25rem;
+    --container-sm: 24rem;
+    --container-md: 28rem;
+    --container-xl: 36rem;
+    --container-2xl: 42rem;
+    --container-3xl: 48rem;
+    --text-xs: .75rem;
+    --text-xs--line-height: calc(1 / .75);
+    --text-sm: .875rem;
+    --text-sm--line-height: calc(1.25 / .875);
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
+    --text-lg: 1.125rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --tracking-normal: 0em;
+    --tracking-wide: .025em;
+    --leading-relaxed: 1.625;
+    --radius-lg: .5rem;
+    --radius-2xl: 1rem;
+    --blur-md: 12px;
+    --blur-2xl: 40px;
+    --blur-3xl: 64px;
+    --default-transition-duration: .15s;
+    --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    --default-font-family: var(--font-body);
+    --default-mono-font-family: var(--font-mono);
+    --font-display: var(--font-display);
+  }
+}
+
+@layer base {
+  *, :after, :before, ::backdrop {
+    box-sizing: border-box;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+  }
+
+  ::file-selector-button {
+    box-sizing: border-box;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, :host {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    line-height: 1.5;
+    font-family: var(--default-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+
+  b, strong {
+    font-weight: bolder;
+  }
+
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+
+  small {
+    font-size: 80%;
+  }
+
+  sub, sup {
+    vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+  }
+
+  sub {
+    bottom: -.25em;
+  }
+
+  sup {
+    top: -.5em;
+  }
+
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+
+  :-moz-focusring:where(:not(iframe)) {
+    outline: auto;
+  }
+
+  progress {
+    vertical-align: baseline;
+  }
+
+  summary {
+    display: list-item;
+  }
+
+  ol, ul, menu {
+    list-style: none;
+  }
+
+  img, svg, video, canvas, audio, iframe, embed, object {
+    vertical-align: middle;
+    display: block;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  button, input, select, optgroup, textarea {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    opacity: 1;
+    background-color: #0000;
+    border-radius: 0;
+  }
+
+  ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    opacity: 1;
+    background-color: #0000;
+    border-radius: 0;
+  }
+
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+
+  ::placeholder {
+    opacity: 1;
+  }
+
+  @supports (not ((-webkit-appearance: -apple-pay-button))) or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentColor;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      ::placeholder {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+
+  ::-webkit-datetime-edit {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-year-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-month-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-day-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-hour-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-minute-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-second-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-millisecond-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-calendar-picker-indicator {
+    line-height: 1;
+  }
+
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+
+  button, input:where([type="button"], [type="reset"], [type="submit"]) {
+    appearance: button;
+  }
+
+  ::file-selector-button {
+    appearance: button;
+  }
+
+  ::-webkit-inner-spin-button {
+    height: auto;
+  }
+
+  ::-webkit-outer-spin-button {
+    height: auto;
+  }
+
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+
+@layer components;
+
+@layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
+
+  .sr-only {
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border-width: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .fixed {
+    position: fixed;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .inset-0 {
+    inset: 0;
+  }
+
+  .inset-x-0 {
+    inset-inline: 0;
+  }
+
+  .inset-y-0 {
+    inset-block: 0;
+  }
+
+  .-top-10 {
+    top: calc(var(--spacing) * -10);
+  }
+
+  .top-0 {
+    top: 0;
+  }
+
+  .top-10 {
+    top: calc(var(--spacing) * 10);
+  }
+
+  .-right-8 {
+    right: calc(var(--spacing) * -8);
+  }
+
+  .-right-16 {
+    right: calc(var(--spacing) * -16);
+  }
+
+  .-bottom-12 {
+    bottom: calc(var(--spacing) * -12);
+  }
+
+  .-bottom-20 {
+    bottom: calc(var(--spacing) * -20);
+  }
+
+  .left-0 {
+    left: 0;
+  }
+
+  .left-10 {
+    left: calc(var(--spacing) * 10);
+  }
+
+  .z-10 {
+    z-index: 10;
+  }
+
+  .z-50 {
+    z-index: 50;
+  }
+
+  .mt-1 {
+    margin-top: var(--spacing);
+  }
+
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
+
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
+
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
+  }
+
+  .mt-9 {
+    margin-top: calc(var(--spacing) * 9);
+  }
+
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
+
+  .mt-14 {
+    margin-top: calc(var(--spacing) * 14);
+  }
+
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+
+  .block {
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .inline-flex {
+    display: inline-flex;
+  }
+
+  .aspect-\[4\/3\] {
+    aspect-ratio: 4 / 3;
+  }
+
+  .h-1\.5 {
+    height: calc(var(--spacing) * 1.5);
+  }
+
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
+
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
+
+  .h-36 {
+    height: calc(var(--spacing) * 36);
+  }
+
+  .h-40 {
+    height: calc(var(--spacing) * 40);
+  }
+
+  .h-48 {
+    height: calc(var(--spacing) * 48);
+  }
+
+  .h-56 {
+    height: calc(var(--spacing) * 56);
+  }
+
+  .h-\[4\.25rem\] {
+    height: 4.25rem;
+  }
+
+  .h-full {
+    height: 100%;
+  }
+
+  .h-px {
+    height: 1px;
+  }
+
+  .\!min-h-10 {
+    min-height: calc(var(--spacing) * 10) !important;
+  }
+
+  .min-h-\[100svh\] {
+    min-height: 100svh;
+  }
+
+  .min-h-full {
+    min-height: 100%;
+  }
+
+  .w-1\.5 {
+    width: calc(var(--spacing) * 1.5);
+  }
+
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
+
+  .w-8 {
+    width: calc(var(--spacing) * 8);
+  }
+
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+
+  .w-16 {
+    width: calc(var(--spacing) * 16);
+  }
+
+  .w-36 {
+    width: calc(var(--spacing) * 36);
+  }
+
+  .w-40 {
+    width: calc(var(--spacing) * 40);
+  }
+
+  .w-48 {
+    width: calc(var(--spacing) * 48);
+  }
+
+  .w-56 {
+    width: calc(var(--spacing) * 56);
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .max-w-2xl {
+    max-width: var(--container-2xl);
+  }
+
+  .max-w-3xl {
+    max-width: var(--container-3xl);
+  }
+
+  .max-w-\[12ch\] {
+    max-width: 12ch;
+  }
+
+  .max-w-md {
+    max-width: var(--container-md);
+  }
+
+  .max-w-sm {
+    max-width: var(--container-sm);
+  }
+
+  .max-w-xl {
+    max-width: var(--container-xl);
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+
+  .shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .-translate-y-\[3\.5px\] {
+    --tw-translate-y: calc(3.5px * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+
+  .translate-y-\[3\.5px\] {
+    --tw-translate-y: 3.5px;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+
+  .-rotate-45 {
+    rotate: -45deg;
+  }
+
+  .rotate-45 {
+    rotate: 45deg;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .grid-cols-\[auto_1fr\] {
+    grid-template-columns: auto 1fr;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .items-baseline {
+    align-items: baseline;
+  }
+
+  .items-center {
+    align-items: center;
+  }
+
+  .items-end {
+    align-items: flex-end;
+  }
+
+  .items-start {
+    align-items: flex-start;
+  }
+
+  .justify-between {
+    justify-content: space-between;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .justify-end {
+    justify-content: flex-end;
+  }
+
+  .gap-1 {
+    gap: var(--spacing);
+  }
+
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
+  }
+
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
+
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+
+  .gap-7 {
+    gap: calc(var(--spacing) * 7);
+  }
+
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
+
+  .gap-12 {
+    gap: calc(var(--spacing) * 12);
+  }
+
+  :where(.space-y-2 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  :where(.space-y-3 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  :where(.space-y-4 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  :where(.space-y-5 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 5) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 5) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  .gap-x-8 {
+    column-gap: calc(var(--spacing) * 8);
+  }
+
+  .gap-y-10 {
+    row-gap: calc(var(--spacing) * 10);
+  }
+
+  .self-center {
+    align-self: center;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
+
+  .rounded-\[1\.5rem\] {
+    border-radius: 1.5rem;
+  }
+
+  .rounded-\[1\.75rem\] {
+    border-radius: 1.75rem;
+  }
+
+  .rounded-full {
+    border-radius: 3.40282e38px;
+  }
+
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
+
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+
+  .border-y {
+    border-block-style: var(--tw-border-style);
+    border-block-width: 1px;
+  }
+
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+
+  .border-l {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 1px;
+  }
+
+  .border-l-\[3px\] {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 3px;
+  }
+
+  .border-\[rgb\(88\,140\,110\)\] {
+    border-color: #588c6e;
+  }
+
+  .border-\[rgb\(180\,90\,90\)\] {
+    border-color: #b45a5a;
+  }
+
+  .border-\[rgba\(217\,122\,140\,0\.45\)\] {
+    border-color: #d97a8c73;
+  }
+
+  .border-gold\/50 {
+    border-color: var(--gold);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-gold\/50 {
+      border-color: color-mix(in oklab, var(--gold) 50%, transparent);
+    }
+  }
+
+  .border-gold\/60 {
+    border-color: var(--gold);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-gold\/60 {
+      border-color: color-mix(in oklab, var(--gold) 60%, transparent);
+    }
+  }
+
+  .border-line {
+    border-color: var(--line);
+  }
+
+  .border-transparent {
+    border-color: #0000;
+  }
+
+  .border-white\/10 {
+    border-color: #ffffff1a;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-white\/10 {
+      border-color: color-mix(in oklab, var(--color-white) 10%, transparent);
+    }
+  }
+
+  .border-white\/15 {
+    border-color: #ffffff26;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-white\/15 {
+      border-color: color-mix(in oklab, var(--color-white) 15%, transparent);
+    }
+  }
+
+  .\!bg-\[\#d97a8c\] {
+    background-color: #d97a8c !important;
+  }
+
+  .bg-\[rgba\(247\,242\,236\,0\.88\)\] {
+    background-color: #f7f2ece0;
+  }
+
+  .bg-\[rgba\(247\,242\,236\,0\.97\)\] {
+    background-color: #f7f2ecf7;
+  }
+
+  .bg-beige\/35 {
+    background-color: var(--beige);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-beige\/35 {
+      background-color: color-mix(in oklab, var(--beige) 35%, transparent);
+    }
+  }
+
+  .bg-beige\/40 {
+    background-color: var(--beige);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-beige\/40 {
+      background-color: color-mix(in oklab, var(--beige) 40%, transparent);
+    }
+  }
+
+  .bg-charcoal {
+    background-color: var(--charcoal);
+  }
+
+  .bg-gold\/15 {
+    background-color: var(--gold);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-gold\/15 {
+      background-color: color-mix(in oklab, var(--gold) 15%, transparent);
+    }
+  }
+
+  .bg-gold\/20 {
+    background-color: var(--gold);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-gold\/20 {
+      background-color: color-mix(in oklab, var(--gold) 20%, transparent);
+    }
+  }
+
+  .bg-gold\/70 {
+    background-color: var(--gold);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-gold\/70 {
+      background-color: color-mix(in oklab, var(--gold) 70%, transparent);
+    }
+  }
+
+  .bg-rose {
+    background-color: var(--rose);
+  }
+
+  .bg-rose\/20 {
+    background-color: var(--rose);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-rose\/20 {
+      background-color: color-mix(in oklab, var(--rose) 20%, transparent);
+    }
+  }
+
+  .bg-rose\/25 {
+    background-color: var(--rose);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-rose\/25 {
+      background-color: color-mix(in oklab, var(--rose) 25%, transparent);
+    }
+  }
+
+  .bg-transparent {
+    background-color: #0000;
+  }
+
+  .bg-white\/5 {
+    background-color: #ffffff0d;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/5 {
+      background-color: color-mix(in oklab, var(--color-white) 5%, transparent);
+    }
+  }
+
+  .bg-white\/40 {
+    background-color: #fff6;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/40 {
+      background-color: color-mix(in oklab, var(--color-white) 40%, transparent);
+    }
+  }
+
+  .bg-white\/50 {
+    background-color: #ffffff80;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/50 {
+      background-color: color-mix(in oklab, var(--color-white) 50%, transparent);
+    }
+  }
+
+  .bg-white\/55 {
+    background-color: #ffffff8c;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/55 {
+      background-color: color-mix(in oklab, var(--color-white) 55%, transparent);
+    }
+  }
+
+  .bg-white\/60 {
+    background-color: #fff9;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/60 {
+      background-color: color-mix(in oklab, var(--color-white) 60%, transparent);
+    }
+  }
+
+  .bg-white\/70 {
+    background-color: #ffffffb3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/70 {
+      background-color: color-mix(in oklab, var(--color-white) 70%, transparent);
+    }
+  }
+
+  .bg-white\/75 {
+    background-color: #ffffffbf;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/75 {
+      background-color: color-mix(in oklab, var(--color-white) 75%, transparent);
+    }
+  }
+
+  .bg-white\/80 {
+    background-color: #fffc;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/80 {
+      background-color: color-mix(in oklab, var(--color-white) 80%, transparent);
+    }
+  }
+
+  .bg-\[linear-gradient\(145deg\,\#2f2a2a_0\%\,\#4a3f3d_100\%\)\] {
+    background-image: linear-gradient(145deg, #2f2a2a 0%, #4a3f3d 100%);
+  }
+
+  .bg-\[linear-gradient\(160deg\,\#f8f1ea_0\%\,\#f0e2d8_55\%\,\#e8d2c8_100\%\)\] {
+    background-image: linear-gradient(160deg, #f8f1ea 0%, #f0e2d8 55%, #e8d2c8 100%);
+  }
+
+  .bg-\[linear-gradient\(165deg\,\#2a2424_0\%\,\#3d3432_48\%\,\#2f2a2a_100\%\)\] {
+    background-image: linear-gradient(165deg, #2a2424 0%, #3d3432 48%, #2f2a2a 100%);
+  }
+
+  .bg-\[linear-gradient\(180deg\,rgba\(247\,242\,236\,0\.55\)_0\%\,rgba\(247\,242\,236\,0\.82\)_48\%\,rgba\(247\,242\,236\,0\.94\)_100\%\)\] {
+    background-image: linear-gradient(#f7f2ec8c 0%, #f7f2ecd1 48%, #f7f2ecf0 100%);
+  }
+
+  .bg-\[linear-gradient\(180deg\,rgba\(255\,252\,249\,0\.92\)_0\%\,rgba\(243\,235\,227\,0\.75\)_100\%\)\] {
+    background-image: linear-gradient(#fffcf9eb 0%, #f3ebe3bf 100%);
+  }
+
+  .object-cover {
+    object-fit: cover;
+  }
+
+  .object-\[68\%_42\%\] {
+    object-position: 68% 42%;
+  }
+
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+
+  .\!px-4 {
+    padding-inline: calc(var(--spacing) * 4) !important;
+  }
+
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
+
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
+
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+
+  .px-7 {
+    padding-inline: calc(var(--spacing) * 7);
+  }
+
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
+  }
+
+  .py-1 {
+    padding-block: var(--spacing);
+  }
+
+  .py-1\.5 {
+    padding-block: calc(var(--spacing) * 1.5);
+  }
+
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
+  }
+
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
+
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
+
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
+
+  .py-9 {
+    padding-block: calc(var(--spacing) * 9);
+  }
+
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
+
+  .pt-6 {
+    padding-top: calc(var(--spacing) * 6);
+  }
+
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
+  }
+
+  .pt-14 {
+    padding-top: calc(var(--spacing) * 14);
+  }
+
+  .pt-28 {
+    padding-top: calc(var(--spacing) * 28);
+  }
+
+  .pb-2 {
+    padding-bottom: calc(var(--spacing) * 2);
+  }
+
+  .pb-10 {
+    padding-bottom: calc(var(--spacing) * 10);
+  }
+
+  .pb-16 {
+    padding-bottom: calc(var(--spacing) * 16);
+  }
+
+  .pl-4 {
+    padding-left: calc(var(--spacing) * 4);
+  }
+
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .\!text-sm {
+    font-size: var(--text-sm) !important;
+    line-height: var(--tw-leading, var(--text-sm--line-height)) !important;
+  }
+
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+
+  .text-xs {
+    font-size: var(--text-xs);
+    line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
+
+  .text-\[0\.68rem\] {
+    font-size: .68rem;
+  }
+
+  .text-\[0\.72rem\] {
+    font-size: .72rem;
+  }
+
+  .text-\[0\.78rem\] {
+    font-size: .78rem;
+  }
+
+  .text-\[0\.84rem\] {
+    font-size: .84rem;
+  }
+
+  .text-\[0\.95rem\] {
+    font-size: .95rem;
+  }
+
+  .text-\[0\.98rem\] {
+    font-size: .98rem;
+  }
+
+  .text-\[1\.02rem\] {
+    font-size: 1.02rem;
+  }
+
+  .text-\[1\.05rem\] {
+    font-size: 1.05rem;
+  }
+
+  .text-\[1\.15rem\] {
+    font-size: 1.15rem;
+  }
+
+  .text-\[1\.55rem\] {
+    font-size: 1.55rem;
+  }
+
+  .text-\[1\.85rem\] {
+    font-size: 1.85rem;
+  }
+
+  .text-\[clamp\(2\.1rem\,3\.8vw\,3\.2rem\)\] {
+    font-size: clamp(2.1rem, 3.8vw, 3.2rem);
+  }
+
+  .text-\[clamp\(2\.2rem\,3\.5vw\,3\.15rem\)\] {
+    font-size: clamp(2.2rem, 3.5vw, 3.15rem);
+  }
+
+  .text-\[clamp\(2\.3rem\,4\.8vw\,3\.5rem\)\] {
+    font-size: clamp(2.3rem, 4.8vw, 3.5rem);
+  }
+
+  .text-\[clamp\(2\.3rem\,4\.8vw\,3\.6rem\)\] {
+    font-size: clamp(2.3rem, 4.8vw, 3.6rem);
+  }
+
+  .text-\[clamp\(2\.4rem\,5vw\,3\.8rem\)\] {
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+  }
+
+  .text-\[clamp\(3\.4rem\,9vw\,6\.4rem\)\] {
+    font-size: clamp(3.4rem, 9vw, 6.4rem);
+  }
+
+  .leading-\[1\.05\] {
+    --tw-leading: 1.05;
+    line-height: 1.05;
+  }
+
+  .leading-none {
+    --tw-leading: 1;
+    line-height: 1;
+  }
+
+  .leading-relaxed {
+    --tw-leading: var(--leading-relaxed);
+    line-height: var(--leading-relaxed);
+  }
+
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .tracking-\[0\.04em\] {
+    --tw-tracking: .04em;
+    letter-spacing: .04em;
+  }
+
+  .tracking-\[0\.12em\] {
+    --tw-tracking: .12em;
+    letter-spacing: .12em;
+  }
+
+  .tracking-\[0\.14em\] {
+    --tw-tracking: .14em;
+    letter-spacing: .14em;
+  }
+
+  .tracking-\[0\.18em\] {
+    --tw-tracking: .18em;
+    letter-spacing: .18em;
+  }
+
+  .tracking-\[0\.22em\] {
+    --tw-tracking: .22em;
+    letter-spacing: .22em;
+  }
+
+  .tracking-\[0\.28em\] {
+    --tw-tracking: .28em;
+    letter-spacing: .28em;
+  }
+
+  .tracking-wide {
+    --tw-tracking: var(--tracking-wide);
+    letter-spacing: var(--tracking-wide);
+  }
+
+  .text-\[\#f8f3ee\] {
+    color: #f8f3ee;
+  }
+
+  .text-\[\#f8f3ee\]\/70 {
+    color: #f8f3eeb3;
+    color: lab(96.1296% 1.08933 3.04018 / .7);
+  }
+
+  .text-\[rgb\(70\,120\,92\)\] {
+    color: #46785c;
+  }
+
+  .text-\[rgb\(150\,70\,70\)\] {
+    color: #964646;
+  }
+
+  .text-charcoal {
+    color: var(--charcoal);
+  }
+
+  .text-charcoal-soft {
+    color: var(--charcoal-soft);
+  }
+
+  .text-charcoal-soft\/80 {
+    color: var(--charcoal-soft);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .text-charcoal-soft\/80 {
+      color: color-mix(in oklab, var(--charcoal-soft) 80%, transparent);
+    }
+  }
+
+  .text-gold {
+    color: var(--gold);
+  }
+
+  .text-gold-soft {
+    color: var(--gold-soft);
+  }
+
+  .text-rose-deep {
+    color: var(--rose-deep);
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .opacity-0 {
+    opacity: 0;
+  }
+
+  .opacity-\[0\.06\] {
+    opacity: .06;
+  }
+
+  .shadow-\[0_1px_0_rgba\(47\,42\,42\,0\.08\)\] {
+    --tw-shadow: 0 1px 0 var(--tw-shadow-color, #2f2a2a14);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
+  .shadow-\[0_18px_40px_rgba\(47\,42\,42\,0\.06\)\] {
+    --tw-shadow: 0 18px 40px var(--tw-shadow-color, #2f2a2a0f);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
+  .shadow-\[var\(--shadow-soft\)\] {
+    --tw-shadow: var(--shadow-soft);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
+  .blur-2xl {
+    --tw-blur: blur(var(--blur-2xl));
+    filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
+  }
+
+  .blur-3xl {
+    --tw-blur: blur(var(--blur-3xl));
+    filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
+  }
+
+  .backdrop-blur-md {
+    --tw-backdrop-blur: blur(var(--blur-md));
+    -webkit-backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
+    backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
+  }
+
+  .transition-\[background-color\,box-shadow\,backdrop-filter\] {
+    transition-property: background-color, box-shadow, -webkit-backdrop-filter, backdrop-filter;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
+  .transition-colors {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
+  .transition-opacity {
+    transition-property: opacity;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
+  .transition-transform {
+    transition-property: transform, translate, scale, rotate;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
+  .duration-200 {
+    --tw-duration: .2s;
+    transition-duration: .2s;
+  }
+
+  .duration-300 {
+    --tw-duration: .3s;
+    transition-duration: .3s;
+  }
+
+  .placeholder\:font-normal::placeholder {
+    --tw-font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-normal);
+  }
+
+  .placeholder\:tracking-normal::placeholder {
+    --tw-tracking: var(--tracking-normal);
+    letter-spacing: var(--tracking-normal);
+  }
+
+  .placeholder\:text-charcoal-soft\/55::placeholder {
+    color: var(--charcoal-soft);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .placeholder\:text-charcoal-soft\/55::placeholder {
+      color: color-mix(in oklab, var(--charcoal-soft) 55%, transparent);
+    }
+  }
+
+  .placeholder\:text-charcoal-soft\/60::placeholder {
+    color: var(--charcoal-soft);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .placeholder\:text-charcoal-soft\/60::placeholder {
+      color: color-mix(in oklab, var(--charcoal-soft) 60%, transparent);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:border-rose\/40:hover {
+      border-color: var(--rose);
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-rose\/40:hover {
+        border-color: color-mix(in oklab, var(--rose) 40%, transparent);
+      }
+    }
+
+    .hover\:bg-white:hover {
+      background-color: var(--color-white);
+    }
+
+    .hover\:bg-white\/40:hover {
+      background-color: #fff6;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-white\/40:hover {
+        background-color: color-mix(in oklab, var(--color-white) 40%, transparent);
+      }
+    }
+
+    .hover\:bg-white\/80:hover {
+      background-color: #fffc;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-white\/80:hover {
+        background-color: color-mix(in oklab, var(--color-white) 80%, transparent);
+      }
+    }
+
+    .hover\:text-charcoal:hover {
+      color: var(--charcoal);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:mt-auto {
+      margin-top: auto;
+    }
+
+    .sm\:block {
+      display: block;
+    }
+
+    .sm\:w-auto {
+      width: auto;
+    }
+
+    .sm\:min-w-\[12rem\] {
+      min-width: 12rem;
+    }
+
+    .sm\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .sm\:flex-row {
+      flex-direction: row;
+    }
+
+    .sm\:items-center {
+      align-items: center;
+    }
+
+    .sm\:justify-between {
+      justify-content: space-between;
+    }
+
+    .sm\:justify-center {
+      justify-content: center;
+    }
+
+    .sm\:bg-\[linear-gradient\(105deg\,rgba\(247\,242\,236\,0\.94\)_0\%\,rgba\(247\,242\,236\,0\.78\)_38\%\,rgba\(247\,242\,236\,0\.28\)_62\%\,rgba\(47\,42\,42\,0\.18\)_100\%\)\] {
+      background-image: linear-gradient(105deg, #f7f2ecf0 0%, #f7f2ecc7 38%, #f7f2ec47 62%, #2f2a2a2e 100%);
+    }
+
+    .sm\:px-10 {
+      padding-inline: calc(var(--spacing) * 10);
+    }
+
+    .sm\:px-12 {
+      padding-inline: calc(var(--spacing) * 12);
+    }
+
+    .sm\:py-11 {
+      padding-block: calc(var(--spacing) * 11);
+    }
+
+    .sm\:pt-8 {
+      padding-top: calc(var(--spacing) * 8);
+    }
+
+    .sm\:pt-32 {
+      padding-top: calc(var(--spacing) * 32);
+    }
+
+    .sm\:pb-24 {
+      padding-bottom: calc(var(--spacing) * 24);
+    }
+
+    .sm\:text-5xl {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+
+    .sm\:text-\[1\.25rem\] {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .md\:grid-cols-\[1\.2fr_1fr_1fr\] {
+      grid-template-columns: 1.2fr 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:flex {
+      display: flex;
+    }
+
+    .lg\:grid {
+      display: grid;
+    }
+
+    .lg\:hidden {
+      display: none;
+    }
+
+    .lg\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .lg\:grid-cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .lg\:grid-cols-\[0\.9fr_1\.1fr\] {
+      grid-template-columns: .9fr 1.1fr;
+    }
+
+    .lg\:grid-cols-\[0\.92fr_1\.08fr\] {
+      grid-template-columns: .92fr 1.08fr;
+    }
+
+    .lg\:grid-cols-\[1fr_1\.05fr\] {
+      grid-template-columns: 1fr 1.05fr;
+    }
+
+    .lg\:grid-cols-\[1fr_1\.15fr\] {
+      grid-template-columns: 1fr 1.15fr;
+    }
+
+    .lg\:items-center {
+      align-items: center;
+    }
+
+    .lg\:items-start {
+      align-items: flex-start;
+    }
+
+    .lg\:px-11 {
+      padding-inline: calc(var(--spacing) * 11);
+    }
+
+    .lg\:px-12 {
+      padding-inline: calc(var(--spacing) * 12);
+    }
+
+    .lg\:py-12 {
+      padding-block: calc(var(--spacing) * 12);
+    }
+  }
+}
+
+:root {
+  --rose: #d97a8c;
+  --rose-deep: #c45f74;
+  --ivory: #f7f2ec;
+  --ivory-deep: #efe6dc;
+  --gold: #c9a46a;
+  --gold-soft: #d4b88a;
+  --charcoal: #2f2a2a;
+  --charcoal-soft: #5a5250;
+  --beige: #e9ddd3;
+  --beige-soft: #f1e8e0;
+  --surface: #fffcf9b8;
+  --line: #2f2a2a1f;
+  --shadow-soft: 0 24px 60px #2f2a2a14;
+  --background: var(--ivory);
+  --foreground: var(--charcoal);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--ivory);
+}
+
+body {
+  isolation: isolate;
+  background-color: var(--ivory);
+  min-height: 100%;
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+  text-rendering: optimizelegibility;
+  position: relative;
+}
+
+body:before {
+  content: "";
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(980px 680px at 8% 0%, #d97a8c24, transparent 62%),
+    radial-gradient(860px 560px at 92% 12%, #c9a46a1f, transparent 58%),
+    radial-gradient(720px 520px at 50% 100%, #e9ddd38c, transparent 65%),
+    var(--ivory);
+  position: fixed;
+  inset: 0;
+}
+
+::selection {
+  color: var(--charcoal);
+  background: #d97a8c47;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container-page {
+  width: min(1120px, 100% - 2.5rem);
+  margin-inline: auto;
+}
+
+.display {
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: -.02em;
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.eyebrow {
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--rose-deep);
+  font-size: .72rem;
+  font-weight: 600;
+}
+
+.btn {
+  letter-spacing: .01em;
+  cursor: pointer;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  min-height: 3rem;
+  padding: .75rem 1.35rem;
+  font-size: .92rem;
+  font-weight: 600;
+  transition: background-color .2s, color .2s, border-color .2s, transform .2s, box-shadow .2s;
+  display: inline-flex;
+}
+
+.btn:focus-visible, .link-quiet:focus-visible, .nav-link:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible {
+  outline: 2px solid var(--rose);
+  outline-offset: 3px;
+}
+
+.btn-primary {
+  background: var(--charcoal);
+  color: #fffaf7;
+  box-shadow: 0 10px 30px #2f2a2a29;
+}
+
+.btn-primary:hover {
+  background: #1f1b1b;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  color: var(--charcoal);
+  border: 1px solid var(--line);
+  background: none;
+}
+
+.btn-secondary:hover {
+  background: #ffffff73;
+  border-color: #2f2a2a47;
+}
+
+.btn-rose {
+  background: var(--rose);
+  color: #fffaf8;
+}
+
+.btn-rose:hover {
+  background: var(--rose-deep);
+}
+
+.section {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.section-tight {
+  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
+}
+
+.reveal {
+  opacity: 0;
+  transition: opacity .7s cubic-bezier(.22, 1, .36, 1), transform .7s cubic-bezier(.22, 1, .36, 1);
+  transform: translateY(22px);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 {
+  transition-delay: 80ms;
+}
+
+.reveal-delay-2 {
+  transition-delay: .16s;
+}
+
+.reveal-delay-3 {
+  transition-delay: .24s;
+}
+
+.hero-kenburns {
+  transform-origin: 65% 40%;
+  animation: 28s ease-in-out infinite alternate kenburns;
+}
+
+@keyframes kenburns {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.06);
+  }
+}
+
+.float-soft {
+  animation: 6.5s ease-in-out infinite floatSoft;
+}
+
+@keyframes floatSoft {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.trust-marquee__viewport {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, #0000, #000 4% 96%, #0000);
+  mask-image: linear-gradient(90deg, #0000, #000 4% 96%, #0000);
+}
+
+.trust-marquee__track {
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  width: max-content;
+  animation: 42s linear infinite trustMarquee;
+  display: flex;
+}
+
+.trust-marquee__group {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.trust-marquee__item {
+  white-space: nowrap;
+  color: var(--charcoal-soft);
+  align-items: center;
+  gap: 2rem;
+  padding-inline-end: 2rem;
+  font-size: .9rem;
+  display: inline-flex;
+}
+
+.trust-marquee__dot {
+  background: var(--gold);
+  border-radius: 999px;
+  width: .25rem;
+  height: .25rem;
+  display: inline-block;
+}
+
+@supports (color: color-mix(in lab, red, red)) {
+  .trust-marquee__dot {
+    background: color-mix(in srgb, var(--gold) 70%, transparent);
+  }
+}
+
+@keyframes trustMarquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.routine-progress {
+  width: 0%;
+  animation: 5s linear forwards routineProgress;
+}
+
+@keyframes routineProgress {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.grain {
+  pointer-events: none;
+  opacity: .035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  position: absolute;
+  inset: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal, .reveal.is-visible {
+    opacity: 1;
+    transition: none;
+    transform: none;
+  }
+
+  .hero-kenburns, .float-soft, .trust-marquee__track, .routine-progress {
+    animation: none;
+  }
+
+  .routine-progress {
+    width: 100%;
+  }
+
+  .trust-marquee__viewport {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .trust-marquee__track {
+    pointer-events: auto;
+    -webkit-user-select: text;
+    user-select: text;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: .5rem;
+    width: 100%;
+  }
+
+  .trust-marquee__group + .trust-marquee__group {
+    display: none;
+  }
+
+  .trust-marquee__item {
+    padding-inline: .75rem;
+  }
+
+  body:before {
+    background: var(--ivory);
+  }
+}
+
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-space-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+
+@property --tw-leading {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-tracking {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-blur {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-brightness {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-contrast {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-grayscale {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-hue-rotate {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-invert {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-opacity {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-saturate {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-sepia {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-drop-shadow-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-drop-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-drop-shadow-size {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-blur {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-brightness {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-contrast {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-grayscale {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-hue-rotate {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-invert {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-opacity {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-saturate {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-backdrop-sepia {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-duration {
+  syntax: "*";
+  inherits: false
+}
+
+/*# sourceMappingURL=%5Broot-of-the-server%5D__1k5j9kh._.css.map*/
+</style><meta name="next-size-adjust" content=""/><title>ÉCLATÉ PARIS | Quiet Luxury for Your Skin</title><meta name="description" content="French-inspired skincare and everyday makeup. Learn how to use your products, understand ingredients, verify authenticity, and find ÉCLATÉ near you."/><meta property="og:title" content="ÉCLATÉ PARIS | Quiet Luxury for Your Skin"/><meta property="og:description" content="A calm post-purchase companion for simple routines, ingredient clarity, and authentic ÉCLATÉ products."/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ÉCLATÉ PARIS | Quiet Luxury for Your Skin"/><meta name="twitter:description" content="A calm post-purchase companion for simple routines, ingredient clarity, and authentic ÉCLATÉ products."/><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23D97A8C'/%3E%3C/svg%3E" /><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap"><style>:root{--font-display:'Cormorant Garamond', Georgia, serif;--font-body:'DM Sans', ui-sans-serif, system-ui, sans-serif;}</style><style>
+/* Standalone behavior */
+header.standalone-scrolled {
+  border-bottom: 1px solid rgba(216,222,230,.8) !important;
+  background: rgba(255,255,255,.95) !important;
+  backdrop-filter: blur(12px);
+}
+header.standalone-scrolled .standalone-brand,
+header.standalone-scrolled .standalone-menu-button { color: #0a0f1a !important; }
+header.standalone-scrolled .standalone-brand { color: #0b3a6e !important; }
+header.standalone-scrolled .standalone-brand-subtitle { color: #5a6570 !important; }
+header.standalone-scrolled .standalone-desktop-link { color: rgba(10,15,26,.8) !important; }
+header.standalone-scrolled .standalone-desktop-link:hover { color: #0b3a6e !important; }
+</style>
+
+<style id="standalone-eclate">
+/* Header scrolled state matching the React site */
+header.standalone-scrolled {
+  background: rgba(247, 242, 236, 0.88) !important;
+  box-shadow: 0 1px 0 rgba(47, 42, 42, 0.08);
+  backdrop-filter: blur(12px);
+}
+</style>
+
+</head><body class="min-h-full antialiased"><div id="top" class="relative overflow-x-hidden"><header class="fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300 bg-transparent"><div class="container-page flex h-[4.25rem] items-center justify-between gap-6"><a href="#top" class="group relative z-10"><span class="display text-[1.55rem] leading-none tracking-[0.04em] text-charcoal">ÉCLATÉ</span></a><nav class="hidden items-center gap-7 lg:flex" aria-label="Primary"><a href="#story" class="nav-link text-[0.84rem] font-medium text-charcoal-soft transition-colors duration-200 hover:text-charcoal">Our Story</a><a href="#products" class="nav-link text-[0.84rem] font-medium text-charcoal-soft transition-colors duration-200 hover:text-charcoal">Products</a><a href="#ingredients" class="nav-link text-[0.84rem] font-medium text-charcoal-soft transition-colors duration-200 hover:text-charcoal">Ingredients</a><a href="#routine" class="nav-link text-[0.84rem] font-medium text-charcoal-soft transition-colors duration-200 hover:text-charcoal">Routines</a><a href="#authenticity" class="nav-link text-[0.84rem] font-medium text-charcoal-soft transition-colors duration-200 hover:text-charcoal">Authenticity</a><a href="#stores" class="nav-link text-[0.84rem] font-medium text-charcoal-soft transition-colors duration-200 hover:text-charcoal">Find a Store</a></nav><div class="hidden items-center gap-3 lg:flex"><a href="#authenticity" class="btn btn-secondary !min-h-10 !px-4 !text-sm">Verify batch</a><a href="#stores" class="btn btn-primary !min-h-10 !px-4 !text-sm">Find a store</a></div><button type="button" class="relative z-10 inline-flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/40 lg:hidden" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><span class="sr-only">Menu</span><span class="flex w-4 flex-col gap-1.5"><span class="h-px w-full bg-charcoal transition-transform duration-200 "></span><span class="h-px w-full bg-charcoal transition-opacity duration-200 "></span><span class="h-px w-full bg-charcoal transition-transform duration-200 "></span></span></button></div><div id="mobile-nav" class="border-t border-line bg-[rgba(247,242,236,0.97)] backdrop-blur-md lg:hidden hidden"><nav class="container-page flex flex-col gap-1 py-4" aria-label="Mobile"><a href="#story" class="rounded-lg px-2 py-3 text-base font-medium text-charcoal">Our Story</a><a href="#products" class="rounded-lg px-2 py-3 text-base font-medium text-charcoal">Products</a><a href="#ingredients" class="rounded-lg px-2 py-3 text-base font-medium text-charcoal">Ingredients</a><a href="#routine" class="rounded-lg px-2 py-3 text-base font-medium text-charcoal">Routines</a><a href="#authenticity" class="rounded-lg px-2 py-3 text-base font-medium text-charcoal">Authenticity</a><a href="#stores" class="rounded-lg px-2 py-3 text-base font-medium text-charcoal">Find a Store</a><div class="mt-3 flex flex-col gap-2 pb-2"><a href="#authenticity" class="btn btn-secondary w-full">Verify batch</a><a href="#stores" class="btn btn-primary w-full">Find a store</a></div></nav></div></header><main><section class="relative min-h-[100svh] overflow-hidden"><div class="absolute inset-0"><img alt="ÉCLATÉ PARIS products in soft morning light on a bathroom surface" decoding="async" data-nimg="fill" class="hero-kenburns object-cover object-[68%_42%]" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="https://raw.githubusercontent.com/aminzare2005/eclate-landing/main/public/images/hero-eclate.jpg"/><div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(247,242,236,0.55)_0%,rgba(247,242,236,0.82)_48%,rgba(247,242,236,0.94)_100%)] sm:bg-[linear-gradient(105deg,rgba(247,242,236,0.94)_0%,rgba(247,242,236,0.78)_38%,rgba(247,242,236,0.28)_62%,rgba(47,42,42,0.18)_100%)]"></div><div class="grain"></div></div><div class="container-page relative flex min-h-[100svh] flex-col justify-end pb-16 pt-28 sm:justify-center sm:pb-24 sm:pt-32"><div class="max-w-xl"><p class="eyebrow reveal is-visible">Since 2021 · Paris</p><h1 class="display reveal is-visible mt-4 text-[clamp(3.4rem,9vw,6.4rem)] text-charcoal">ÉCLATÉ PARIS</h1><p class="reveal is-visible reveal-delay-1 mt-4 max-w-md text-[1.15rem] leading-relaxed text-charcoal-soft sm:text-[1.25rem]">Quiet luxury for your skin—simple routines, clear ingredients, and guidance that starts when you scan the package.</p><div class="reveal is-visible reveal-delay-2 mt-8 flex flex-wrap gap-3"><a href="#products" class="btn btn-primary">Explore formulas</a><a href="#scan" class="btn btn-secondary">How QR guidance works</a></div></div></div></section><section class="trust-marquee border-y border-line bg-white/40" aria-label="Trust signals"><div class="trust-marquee__viewport py-5"><div class="trust-marquee__track"><ul class="trust-marquee__group"><li class="trust-marquee__item"><span>Dermatologist tested</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>Suitable for sensitive skin</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>Cruelty-free</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>Recyclable packaging</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>ISO-certified manufacturing</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>QR authenticity checks</span><span class="trust-marquee__dot" aria-hidden="true"></span></li></ul><ul class="trust-marquee__group" aria-hidden="true"><li class="trust-marquee__item"><span>Dermatologist tested</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>Suitable for sensitive skin</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>Cruelty-free</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>Recyclable packaging</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>ISO-certified manufacturing</span><span class="trust-marquee__dot" aria-hidden="true"></span></li><li class="trust-marquee__item"><span>QR authenticity checks</span><span class="trust-marquee__dot" aria-hidden="true"></span></li></ul></div></div></section><section id="story" class="section"><div class="container-page"><div class="reveal"><p class="eyebrow">Why customers keep our products</p><h2 class="display mt-3 max-w-3xl text-[clamp(2.4rem,5vw,3.8rem)] text-charcoal">Premium skincare that feels calm enough for everyday life.</h2><p class="mt-5 max-w-2xl text-[1.05rem] leading-relaxed text-charcoal-soft">ÉCLATÉ was created for healthy-looking skin without complicated rituals. We combine French minimal aesthetics with dermatologist-informed formulas—and a website that supports you after the purchase, not a cart that asks you to buy again.</p></div><div class="mt-14 grid gap-10 md:grid-cols-3"><div class="reveal reveal-delay-1"><p class="display text-3xl text-gold">0<!-- -->1</p><h3 class="mt-3 text-xl font-semibold text-charcoal">Formulas you can keep</h3><p class="mt-3 text-[0.98rem] leading-relaxed text-charcoal-soft">Built for comfort and consistency—not trend cycles that force a full shelf reset.</p></div><div class="reveal reveal-delay-2"><p class="display text-3xl text-gold">0<!-- -->2</p><h3 class="mt-3 text-xl font-semibold text-charcoal">Clear ingredient language</h3><p class="mt-3 text-[0.98rem] leading-relaxed text-charcoal-soft">Every active is explained in plain words so you know what it does on your skin.</p></div><div class="reveal reveal-delay-3"><p class="display text-3xl text-gold">0<!-- -->3</p><h3 class="mt-3 text-xl font-semibold text-charcoal">Guidance after purchase</h3><p class="mt-3 text-[0.98rem] leading-relaxed text-charcoal-soft">Scan the QR on your packaging for usage order, pairing tips, and authenticity.</p></div></div></div></section><section id="products" class="section-tight"><div class="container-page"><div class="grid items-end gap-8 lg:grid-cols-[1fr_1.15fr]"><div class="reveal"><p class="eyebrow">Best known formulas</p><h2 class="display mt-3 text-[clamp(2.3rem,4.8vw,3.6rem)] text-charcoal">Four products. One quiet shelf.</h2><p class="mt-4 max-w-md text-[1.02rem] leading-relaxed text-charcoal-soft">No storefront checkout here—just what each formula is for, what is inside, and how it fits a simple routine.</p></div><div class="reveal reveal-delay-1 relative aspect-[4/3] overflow-hidden rounded-[1.5rem]"><img alt="Lineup of ÉCLATÉ serum, moisturizer, skin tint, and lip veil" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="https://raw.githubusercontent.com/aminzare2005/eclate-landing/main/public/images/products-lineup.jpg"/></div></div><div class="mt-12 grid gap-x-8 gap-y-10 sm:grid-cols-2"><div class="reveal reveal-delay-1"><article class="border-t border-line pt-6"><h3 class="display text-[1.85rem] text-charcoal">Lumière Vitamin C Serum</h3><p class="mt-2 text-sm font-semibold tracking-wide text-rose-deep">Brightening &amp; uneven tone</p><p class="mt-3 text-[0.95rem] leading-relaxed text-charcoal-soft">15% Vitamin C · Ferulic Acid · Niacinamide</p><p class="mt-2 text-sm text-charcoal-soft/80">Frosted glass · rose-gold cap</p></article></div><div class="reveal reveal-delay-2"><article class="border-t border-line pt-6"><h3 class="display text-[1.85rem] text-charcoal">Crème Nuage Barrier Moisturizer</h3><p class="mt-2 text-sm font-semibold tracking-wide text-rose-deep">Hydration &amp; barrier repair</p><p class="mt-3 text-[0.95rem] leading-relaxed text-charcoal-soft">Ceramides · Squalane · Panthenol</p><p class="mt-2 text-sm text-charcoal-soft/80">Soft-touch beige jar</p></article></div><div class="reveal reveal-delay-3"><article class="border-t border-line pt-6"><h3 class="display text-[1.85rem] text-charcoal">Velours Skin Tint SPF 30</h3><p class="mt-2 text-sm font-semibold tracking-wide text-rose-deep">Lightweight daily complexion</p><p class="mt-3 text-[0.95rem] leading-relaxed text-charcoal-soft">Natural finish · breathable · non-comedogenic</p><p class="mt-2 text-sm text-charcoal-soft/80">Everyday SPF tint</p></article></div><div class="reveal reveal-delay-1"><article class="border-t border-line pt-6"><h3 class="display text-[1.85rem] text-charcoal">Rosé Lip Veil</h3><p class="mt-2 text-sm font-semibold tracking-wide text-rose-deep">Hydrating tinted lip balm</p><p class="mt-3 text-[0.95rem] leading-relaxed text-charcoal-soft">Shea butter · jojoba · soft rose pigment</p><p class="mt-2 text-sm text-charcoal-soft/80">Sheer everyday tint</p></article></div></div></div></section><section id="ingredients" class="section"><div class="container-page"><div class="reveal"><p class="eyebrow">Ingredient spotlight</p><h2 class="display mt-3 max-w-2xl text-[clamp(2.3rem,4.8vw,3.5rem)] text-charcoal">Science, spoken softly.</h2><p class="mt-4 max-w-xl text-[1.02rem] leading-relaxed text-charcoal-soft">We explain actives the way a helpful beauty advisor would—clear, calm, and never overpromised.</p></div><div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4"><div class="reveal reveal-delay-1"><div class="h-full border-l border-gold/50 pl-5"><h3 class="text-lg font-semibold text-charcoal">Niacinamide</h3><p class="mt-3 text-sm leading-relaxed text-charcoal-soft">Helps reduce the appearance of pores and supports a more even-looking skin tone.</p></div></div><div class="reveal reveal-delay-2"><div class="h-full border-l border-gold/50 pl-5"><h3 class="text-lg font-semibold text-charcoal">Ceramides</h3><p class="mt-3 text-sm leading-relaxed text-charcoal-soft">Help strengthen the skin barrier and reduce moisture loss.</p></div></div><div class="reveal reveal-delay-3"><div class="h-full border-l border-gold/50 pl-5"><h3 class="text-lg font-semibold text-charcoal">Squalane</h3><p class="mt-3 text-sm leading-relaxed text-charcoal-soft">Provides lightweight hydration without a greasy feel.</p></div></div><div class="reveal reveal-delay-1"><div class="h-full border-l border-gold/50 pl-5"><h3 class="text-lg font-semibold text-charcoal">Vitamin C</h3><p class="mt-3 text-sm leading-relaxed text-charcoal-soft">Supports a brighter-looking complexion and a more even appearance over time.</p></div></div></div></div></section><section id="routine" class="section-tight bg-beige/40"><div class="container-page"><div class="reveal"><p class="eyebrow">Build your routine</p><h2 class="display mt-3 max-w-2xl text-[clamp(2.3rem,4.8vw,3.5rem)] text-charcoal">Cleanse → Serum → Moisturizer → SPF.</h2><p class="mt-4 max-w-xl text-[1.02rem] leading-relaxed text-charcoal-soft">Steps advance on their own—tap any step to jump ahead.</p></div><div class="mt-12"><div class="reveal reveal-delay-1"><div class="grid gap-10 lg:grid-cols-[1fr_1.05fr] lg:items-center"><ol class="space-y-3"><li><button type="button" class="flex w-full cursor-pointer items-start gap-4 rounded-2xl border px-4 py-4 text-left transition-all duration-200 border-[rgba(217,122,140,0.45)] bg-white/75 shadow-[0_18px_40px_rgba(47,42,42,0.06)]" aria-pressed="true"><span class="display text-2xl text-gold">01</span><span><span class="block text-[1.05rem] font-semibold text-charcoal">Cleanse</span><span class="mt-1 block text-sm leading-relaxed text-charcoal-soft">Start with a gentle cleanse so actives absorb evenly.</span></span></button></li><li><button type="button" class="flex w-full cursor-pointer items-start gap-4 rounded-2xl border px-4 py-4 text-left transition-all duration-200 border-transparent bg-transparent hover:bg-white/40" aria-pressed="false"><span class="display text-2xl text-gold">02</span><span><span class="block text-[1.05rem] font-semibold text-charcoal">Serum</span><span class="mt-1 block text-sm leading-relaxed text-charcoal-soft">Apply Lumière Vitamin C Serum — 1–2 pumps on clean skin.</span></span></button></li><li><button type="button" class="flex w-full cursor-pointer items-start gap-4 rounded-2xl border px-4 py-4 text-left transition-all duration-200 border-transparent bg-transparent hover:bg-white/40" aria-pressed="false"><span class="display text-2xl text-gold">03</span><span><span class="block text-[1.05rem] font-semibold text-charcoal">Moisturize</span><span class="mt-1 block text-sm leading-relaxed text-charcoal-soft">Seal with Crème Nuage to support barrier comfort.</span></span></button></li><li><button type="button" class="flex w-full cursor-pointer items-start gap-4 rounded-2xl border px-4 py-4 text-left transition-all duration-200 border-transparent bg-transparent hover:bg-white/40" aria-pressed="false"><span class="display text-2xl text-gold">04</span><span><span class="block text-[1.05rem] font-semibold text-charcoal">Protect</span><span class="mt-1 block text-sm leading-relaxed text-charcoal-soft">Finish mornings with Velours Skin Tint SPF 30.</span></span></button></li></ol><div class="relative overflow-hidden rounded-[1.75rem] border border-line bg-[linear-gradient(160deg,#f8f1ea_0%,#f0e2d8_55%,#e8d2c8_100%)] px-8 py-10 sm:px-10"><p class="eyebrow">Evening or morning</p><h3 class="display mt-3 text-4xl text-charcoal sm:text-5xl">Step <!-- -->01<!-- -->: <!-- -->Cleanse</h3><p class="mt-4 max-w-md text-[1.02rem] leading-relaxed text-charcoal-soft">Start with a gentle cleanse so actives absorb evenly.<!-- --> Keep the order simple. Consistency matters more than adding more products.</p><div class="mt-8 flex gap-2" aria-hidden="true"><span class="relative h-1.5 flex-1 overflow-hidden rounded-full bg-white/60"></span><span class="relative h-1.5 flex-1 overflow-hidden rounded-full bg-white/60"></span><span class="relative h-1.5 flex-1 overflow-hidden rounded-full bg-white/60"></span><span class="relative h-1.5 flex-1 overflow-hidden rounded-full bg-white/60"></span></div></div></div></div></div></div></section><section id="scan" class="section"><div class="container-page grid items-center gap-12 lg:grid-cols-2"><div class="reveal"><p class="eyebrow">Scan &amp; learn</p><h2 class="display mt-3 text-[clamp(2.3rem,4.8vw,3.5rem)] text-charcoal">The website lives on the package.</h2><p class="mt-4 text-[1.05rem] leading-relaxed text-charcoal-soft">Every product carries <span class="font-medium text-charcoal">eclateparis.com</span> <!-- -->on the front and a QR on the back: “Scan for usage guide &amp; authenticity.” That scan is how most customers arrive—right after they open the jar.</p><ul class="mt-8 space-y-3 text-[0.98rem] text-charcoal-soft"><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-rose" aria-hidden="true"></span><span>How to apply and when to use it</span></li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-rose" aria-hidden="true"></span><span>Ingredient benefits in plain language</span></li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-rose" aria-hidden="true"></span><span>Routine order and product pairing</span></li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-rose" aria-hidden="true"></span><span>Batch authenticity confirmation</span></li></ul></div><div class="reveal reveal-delay-1"><div class="relative overflow-hidden rounded-[1.75rem] border border-line bg-[linear-gradient(145deg,#2f2a2a_0%,#4a3f3d_100%)] px-8 py-10 text-[#f8f3ee] shadow-[var(--shadow-soft)] sm:px-10"><div class="float-soft absolute -right-8 -top-10 h-40 w-40 rounded-full bg-rose/25 blur-2xl"></div><div class="absolute -bottom-12 left-10 h-36 w-36 rounded-full bg-gold/20 blur-2xl"></div><p class="text-[0.72rem] font-semibold tracking-[0.18em] text-gold-soft uppercase">Example scan path</p><h3 class="display mt-4 text-4xl">Crème Nuage</h3><p class="mt-2 text-sm text-[#f8f3ee]/cc">Step 3 of your evening routine</p><div class="mt-8 space-y-3 text-sm leading-relaxed text-[#f8f3ee]/e0"><p>Apply after serum · Suitable for sensitive skin</p><p>Pairs well with Lumière Serum · Patch test recommended</p><p>Batch authenticity checker available on this page</p></div><a href="#authenticity" class="btn btn-rose mt-8 !bg-[#d97a8c]">Open authenticity check</a></div></div></div></section><section id="authenticity" class="section-tight"><div class="container-page"><div class="reveal"><div class="auth-panel overflow-hidden rounded-[1.75rem] border border-line lg:grid lg:grid-cols-[0.92fr_1.08fr]"><aside class="relative overflow-hidden bg-[linear-gradient(165deg,#2a2424_0%,#3d3432_48%,#2f2a2a_100%)] px-7 py-9 text-[#f8f3ee] sm:px-10 sm:py-11 lg:px-11 lg:py-12"><div class="pointer-events-none absolute -right-16 top-10 h-56 w-56 rounded-full bg-rose/20 blur-3xl"></div><div class="pointer-events-none absolute -bottom-20 left-0 h-48 w-48 rounded-full bg-gold/15 blur-3xl"></div><div class="grain opacity-[0.06]"></div><div class="relative flex h-full flex-col"><div class="flex items-start justify-between gap-6"><div><p class="text-[0.68rem] font-semibold tracking-[0.22em] text-gold-soft uppercase">ÉCLATÉ · Certified batch</p><h3 class="display mt-4 max-w-[12ch] text-[clamp(2.2rem,3.5vw,3.15rem)] leading-[1.05]">Trust begins on the label.</h3></div><div class="hidden shrink-0 rounded-2xl border border-white/15 bg-white/5 p-3 text-gold-soft sm:block"><svg class="h-16 w-16" viewBox="0 0 88 88" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="28" height="28" rx="2" stroke="currentColor" stroke-width="3"></rect><rect x="12" y="12" width="12" height="12" fill="currentColor"></rect><rect x="56" y="4" width="28" height="28" rx="2" stroke="currentColor" stroke-width="3"></rect><rect x="64" y="12" width="12" height="12" fill="currentColor"></rect><rect x="4" y="56" width="28" height="28" rx="2" stroke="currentColor" stroke-width="3"></rect><rect x="12" y="64" width="12" height="12" fill="currentColor"></rect><rect x="44" y="44" width="8" height="8" fill="currentColor"></rect><rect x="56" y="44" width="8" height="8" fill="currentColor"></rect><rect x="68" y="44" width="8" height="8" fill="currentColor"></rect><rect x="44" y="56" width="8" height="8" fill="currentColor"></rect><rect x="68" y="56" width="8" height="8" fill="currentColor"></rect><rect x="44" y="68" width="8" height="8" fill="currentColor"></rect><rect x="56" y="68" width="8" height="8" fill="currentColor"></rect><rect x="68" y="68" width="16" height="8" fill="currentColor"></rect><rect x="44" y="4" width="6" height="6" fill="currentColor"></rect><rect x="4" y="44" width="6" height="6" fill="currentColor"></rect></svg></div></div><p class="relative mt-5 max-w-sm text-[0.95rem] leading-relaxed text-[#f8f3ee]/b8">Every authentic pack carries a unique manufacturing code. Enter it to confirm your product belongs to a genuine retail batch.</p><ol class="relative mt-9 space-y-5 border-t border-white/10 pt-8"><li class="grid grid-cols-[auto_1fr] gap-4"><span class="display text-xl text-gold">01</span><span><span class="block text-[0.95rem] font-semibold tracking-wide">Locate the code</span><span class="mt-1 block text-sm leading-relaxed text-[#f8f3ee]/a8">Find the batch line printed beside the QR on the back of your pack.</span></span></li><li class="grid grid-cols-[auto_1fr] gap-4"><span class="display text-xl text-gold">02</span><span><span class="block text-[0.95rem] font-semibold tracking-wide">Enter it here</span><span class="mt-1 block text-sm leading-relaxed text-[#f8f3ee]/a8">Type the characters exactly as shown—spaces are optional.</span></span></li><li class="grid grid-cols-[auto_1fr] gap-4"><span class="display text-xl text-gold">03</span><span><span class="block text-[0.95rem] font-semibold tracking-wide">Read the result</span><span class="mt-1 block text-sm leading-relaxed text-[#f8f3ee]/a8">We match it against certified retail manufacturing records.</span></span></li></ol><div class="relative mt-10 flex items-center gap-3 border-t border-white/10 pt-6 text-[0.72rem] tracking-[0.14em] text-[#f8f3ee]/70 uppercase sm:mt-auto sm:pt-8"><span class="inline-block h-px w-8 bg-gold/70" aria-hidden="true"></span>ISO-certified manufacturing</div></div></aside><div class="relative bg-[linear-gradient(180deg,rgba(255,252,249,0.92)_0%,rgba(243,235,227,0.75)_100%)] px-7 py-9 sm:px-10 sm:py-11 lg:px-12 lg:py-12"><p class="eyebrow">Authenticity check</p><h2 class="display mt-3 max-w-md text-[clamp(2.1rem,3.8vw,3.2rem)] text-charcoal">Confirm your product is genuine.</h2><p class="mt-4 max-w-md text-[1.02rem] leading-relaxed text-charcoal-soft">Because our URL sits on every pack, verifying the batch is part of trusting what is on your shelf.</p><form class="mt-8 max-w-md space-y-5"><label class="block"><span class="mb-2 flex items-baseline justify-between gap-3"><span class="text-sm font-medium text-charcoal">Batch code</span><span class="text-[0.72rem] tracking-wide text-charcoal-soft">Near the QR · back of pack</span></span><input placeholder="ÉCL-LUM-24081" autoComplete="off" spellCheck="false" class="w-full rounded-2xl border border-line bg-white/80 px-4 py-4 font-medium tracking-[0.04em] text-charcoal placeholder:font-normal placeholder:tracking-normal placeholder:text-charcoal-soft/55" aria-describedby="batch-help" value=""/></label><div id="batch-help" class="flex flex-wrap gap-2"><span class="self-center text-sm text-charcoal-soft">Try a demo:</span><button type="button" class="cursor-pointer rounded-full border border-line bg-white/60 px-3 py-1.5 text-[0.78rem] font-medium text-charcoal transition-colors duration-200 hover:border-rose/40 hover:bg-white">ÉCL-LUM-24081</button><button type="button" class="cursor-pointer rounded-full border border-line bg-white/60 px-3 py-1.5 text-[0.78rem] font-medium text-charcoal transition-colors duration-200 hover:border-rose/40 hover:bg-white">ECLATE2408A1</button></div><button type="submit" class="btn btn-rose w-full sm:w-auto sm:min-w-[12rem]">Verify authenticity</button></form><div role="status" aria-live="polite" class="mt-7 max-w-md border-l-[3px] py-1 pl-4 text-sm leading-relaxed transition-colors duration-300 border-gold/60 text-charcoal-soft"><p>Your result will appear here after verification.</p></div></div></div></div></div></section><section id="stores" class="section bg-beige/35"><div class="container-page"><div class="reveal"><p class="eyebrow">Find a store</p><h2 class="display mt-3 max-w-2xl text-[clamp(2.3rem,4.8vw,3.5rem)] text-charcoal">Meet ÉCLATÉ where you already shop.</h2><p class="mt-4 max-w-xl text-[1.02rem] leading-relaxed text-charcoal-soft">Pharmacies, beauty retailers, department stores, salons, and airport duty-free—this is a brand presence site, not an online shop.</p></div><div class="mt-12"><div class="reveal reveal-delay-1"><div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start"><div class="space-y-4"><label class="block"><span class="mb-2 block text-sm font-medium text-charcoal">City or store</span><input placeholder="Paris, Lyon, Heathrow…" class="w-full rounded-2xl border border-line bg-white/70 px-4 py-3.5 text-[0.95rem] text-charcoal placeholder:text-charcoal-soft/60" value=""/></label><label class="block"><span class="mb-2 block text-sm font-medium text-charcoal">Channel</span><select class="w-full cursor-pointer rounded-2xl border border-line bg-white/70 px-4 py-3.5 text-[0.95rem] text-charcoal"><option value="All" selected="">All</option><option value="Pharmacy">Pharmacy</option><option value="Beauty store">Beauty store</option><option value="Department store">Department store</option><option value="Airport">Airport</option></select></label><p class="text-sm leading-relaxed text-charcoal-soft">ÉCLATÉ is available through authorized pharmacies, beauty retailers, salons, and select airport duty-free shops. Online checkout is intentionally not offered here.</p></div><ul class="space-y-3" aria-live="polite"><li class="rounded-2xl border border-line bg-white/55 px-5 py-4 transition-colors duration-200 hover:bg-white/80"><div class="flex flex-wrap items-baseline justify-between gap-2"><h3 class="text-[1.02rem] font-semibold text-charcoal">Pharmacie Saint-Germain</h3><span class="text-[0.72rem] font-semibold tracking-[0.12em] text-rose-deep uppercase">Pharmacy</span></div><p class="mt-1 text-sm text-charcoal-soft">Paris<!-- --> · <!-- -->42 Rue de Seine, 75006</p></li><li class="rounded-2xl border border-line bg-white/55 px-5 py-4 transition-colors duration-200 hover:bg-white/80"><div class="flex flex-wrap items-baseline justify-between gap-2"><h3 class="text-[1.02rem] font-semibold text-charcoal">Galeries Beauté</h3><span class="text-[0.72rem] font-semibold tracking-[0.12em] text-rose-deep uppercase">Department store</span></div><p class="mt-1 text-sm text-charcoal-soft">Paris<!-- --> · <!-- -->40 Boulevard Haussmann, 75009</p></li><li class="rounded-2xl border border-line bg-white/55 px-5 py-4 transition-colors duration-200 hover:bg-white/80"><div class="flex flex-wrap items-baseline justify-between gap-2"><h3 class="text-[1.02rem] font-semibold text-charcoal">Maison Éclat Beauty</h3><span class="text-[0.72rem] font-semibold tracking-[0.12em] text-rose-deep uppercase">Beauty store</span></div><p class="mt-1 text-sm text-charcoal-soft">Lyon<!-- --> · <!-- -->18 Rue de la République, 69002</p></li><li class="rounded-2xl border border-line bg-white/55 px-5 py-4 transition-colors duration-200 hover:bg-white/80"><div class="flex flex-wrap items-baseline justify-between gap-2"><h3 class="text-[1.02rem] font-semibold text-charcoal">Côte Apothicaire</h3><span class="text-[0.72rem] font-semibold tracking-[0.12em] text-rose-deep uppercase">Pharmacy</span></div><p class="mt-1 text-sm text-charcoal-soft">Nice<!-- --> · <!-- -->7 Promenade des Anglais, 06000</p></li><li class="rounded-2xl border border-line bg-white/55 px-5 py-4 transition-colors duration-200 hover:bg-white/80"><div class="flex flex-wrap items-baseline justify-between gap-2"><h3 class="text-[1.02rem] font-semibold text-charcoal">Duty Free — Heathrow T5</h3><span class="text-[0.72rem] font-semibold tracking-[0.12em] text-rose-deep uppercase">Airport</span></div><p class="mt-1 text-sm text-charcoal-soft">London<!-- --> · <!-- -->Heathrow Airport, Terminal 5</p></li><li class="rounded-2xl border border-line bg-white/55 px-5 py-4 transition-colors duration-200 hover:bg-white/80"><div class="flex flex-wrap items-baseline justify-between gap-2"><h3 class="text-[1.02rem] font-semibold text-charcoal">Duty Free — DXB Concourse B</h3><span class="text-[0.72rem] font-semibold tracking-[0.12em] text-rose-deep uppercase">Airport</span></div><p class="mt-1 text-sm text-charcoal-soft">Dubai<!-- --> · <!-- -->Dubai International Airport</p></li></ul></div></div></div></div></section><section id="contact" class="section-tight"><div class="container-page"><div class="reveal"><div class="flex flex-col items-start justify-between gap-8 rounded-[1.75rem] border border-line bg-white/50 px-8 py-10 sm:flex-row sm:items-center sm:px-12"><div class="max-w-xl"><p class="eyebrow">Customer support</p><h2 class="display mt-3 text-4xl text-charcoal sm:text-5xl">Questions about texture, layering, or a batch?</h2><p class="mt-4 text-[1.02rem] leading-relaxed text-charcoal-soft">Write us like you would ask a beauty advisor—calm answers, no pressure to buy.</p></div><a href="mailto:care@eclateparis.com" class="btn btn-primary shrink-0">Email care@eclateparis.com</a></div></div></div></section></main><footer class="border-t border-line pb-10 pt-14"><div class="container-page grid gap-10 md:grid-cols-[1.2fr_1fr_1fr]"><div><p class="display text-3xl tracking-[0.04em] text-charcoal">ÉCLATÉ</p><p class="mt-1 text-[0.68rem] font-semibold tracking-[0.28em] text-charcoal-soft uppercase">Paris</p><p class="mt-5 max-w-sm text-sm leading-relaxed text-charcoal-soft">Quiet luxury for your skin. Founded in Paris, 2021—made for shelves you return to for years, not trends you chase for weeks.</p></div><div><p class="text-sm font-semibold text-charcoal">Explore</p><ul class="mt-4 space-y-2 text-sm text-charcoal-soft"><li><a class="link-quiet hover:text-charcoal" href="#products">Products</a></li><li><a class="link-quiet hover:text-charcoal" href="#ingredients">Ingredients</a></li><li><a class="link-quiet hover:text-charcoal" href="#routine">Skin routines</a></li><li><a class="link-quiet hover:text-charcoal" href="#authenticity">Authenticity</a></li></ul></div><div><p class="text-sm font-semibold text-charcoal">Support</p><ul class="mt-4 space-y-2 text-sm text-charcoal-soft"><li><a class="link-quiet hover:text-charcoal" href="#stores">Find a store</a></li><li><a class="link-quiet hover:text-charcoal" href="#contact">Contact</a></li><li><a class="link-quiet hover:text-charcoal" href="https://instagram.com" rel="noreferrer">Instagram</a></li><li><a class="link-quiet hover:text-charcoal" href="https://pinterest.com" rel="noreferrer">Pinterest</a></li></ul></div></div><div class="container-page mt-12 flex flex-col gap-2 border-t border-line pt-6 text-xs text-charcoal-soft sm:flex-row sm:items-center sm:justify-between"><p>© <!-- -->2026<!-- --> ÉCLATÉ PARIS. All rights reserved.</p><p>Not for online purchase · Available at authorized retailers.</p></div></footer></div><!--$--><!--/$--><script>
+(() => {
+  const header = document.querySelector("body > header");
+  const mobileNav = document.getElementById("mobile-nav");
+  const menuButton = document.querySelector('[aria-controls="mobile-nav"]');
+  const brand = header?.querySelector('a[href="#top"]');
+  const brandSubtitle = brand?.querySelector("span + span");
+  const desktopLinks = header?.querySelectorAll('nav[aria-label="Primary"] a') || [];
+
+  brand?.classList.add("standalone-brand");
+  brandSubtitle?.classList.add("standalone-brand-subtitle");
+  menuButton?.classList.add("standalone-menu-button");
+  desktopLinks.forEach((link) => link.classList.add("standalone-desktop-link"));
+
+  let menuOpen = false;
+  const menuIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 256 256" aria-hidden="true"><path d="M40 128h176M40 64h176M40 192h176" stroke="currentColor" stroke-width="24" stroke-linecap="round"/></svg>';
+  const closeIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 256 256" aria-hidden="true"><path d="m48 48 160 160M208 48 48 208" stroke="currentColor" stroke-width="24" stroke-linecap="round"/></svg>';
+
+  function updateHeader() {
+    header?.classList.toggle("standalone-scrolled", window.scrollY > 12 || menuOpen);
+  }
+
+  function setMenu(open) {
+    menuOpen = open;
+    if (!mobileNav || !menuButton) return;
+    mobileNav.classList.toggle("hidden", !open);
+    mobileNav.classList.toggle("block", open);
+    menuButton.setAttribute("aria-expanded", String(open));
+    menuButton.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    menuButton.innerHTML = open ? closeIcon : menuIcon;
+    document.body.style.overflow = open ? "hidden" : "";
+    updateHeader();
+  }
+
+  menuButton?.addEventListener("click", () => setMenu(!menuOpen));
+  mobileNav?.querySelectorAll("a").forEach((link) =>
+    link.addEventListener("click", () => setMenu(false)),
+  );
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
+
+  document.querySelectorAll("form").forEach((form) => {
+    form.setAttribute("action", "#");
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      let status = form.querySelector('[role="status"]');
+      if (!status) {
+        status = document.createElement("p");
+        status.setAttribute("role", "status");
+        form.append(status);
+      }
+
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        status.className = "text-sm text-red-700";
+        status.textContent = "Please complete all required fields.";
+        return;
+      }
+
+      status.className = "text-sm text-tpk-navy";
+      status.textContent = form.closest("#capability-statement")
+        ? "Thank you. Your request has been recorded in this demo. Connect the form to an email service or API to receive submissions."
+        : "Thank you. Your message has been recorded in this demo. Connect the form to an email service or API to receive submissions.";
+      form.reset();
+    });
+  });
+})();
+</script>
+
+<script id="standalone-eclate-js">
+(() => {
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // --- Header / mobile menu ---
+  const header = document.querySelector("#top > header");
+  const mobileNav = document.getElementById("mobile-nav");
+  const menuButton = document.querySelector('[aria-controls="mobile-nav"]');
+  let menuOpen = false;
+
+  function updateHeader() {
+    header?.classList.toggle("standalone-scrolled", window.scrollY > 18 || menuOpen);
+  }
+
+  function setMenu(open) {
+    menuOpen = open;
+    if (!mobileNav || !menuButton) return;
+    mobileNav.classList.toggle("hidden", !open);
+    mobileNav.classList.toggle("block", open);
+    menuButton.setAttribute("aria-expanded", String(open));
+    menuButton.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    const bars = menuButton.querySelectorAll("span.flex > span, .flex.w-4 > span");
+    const lines = menuButton.querySelectorAll("span.h-px");
+    if (lines.length >= 3) {
+      lines[0].style.transform = open ? "translateY(3.5px) rotate(45deg)" : "";
+      lines[1].style.opacity = open ? "0" : "1";
+      lines[2].style.transform = open ? "translateY(-3.5px) rotate(-45deg)" : "";
+    }
+    document.body.style.overflow = open ? "hidden" : "";
+    updateHeader();
+  }
+
+  menuButton?.addEventListener("click", () => setMenu(!menuOpen));
+  mobileNav?.querySelectorAll("a").forEach((link) =>
+    link.addEventListener("click", () => setMenu(false)),
+  );
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
+
+  // --- Scroll reveal ---
+  document.querySelectorAll(".reveal").forEach((node) => {
+    if (reduced) {
+      node.classList.add("is-visible");
+      return;
+    }
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          node.classList.add("is-visible");
+          observer.unobserve(node);
+        }
+      },
+      { threshold: 0.16, rootMargin: "0px 0px -8% 0px" },
+    );
+    observer.observe(node);
+  });
+
+  // --- Authenticity check ---
+  function normalizeBatch(value) {
+    return value.trim().toUpperCase().replace(/\s+/g, "");
+  }
+  function isPlausibleBatch(code) {
+    return /^(ÉCL|ECL)-[A-Z0-9]{3,6}-\d{3,5}$/.test(code) || /^ECLATE[A-Z0-9]{6,10}$/.test(code);
+  }
+
+  const authSection = document.getElementById("authenticity");
+  const authForm = authSection?.querySelector("form");
+  const authInput = authForm?.querySelector('input[placeholder], input[spellcheck]');
+  const authStatus = authSection?.querySelector('[role="status"]');
+
+  authSection?.querySelectorAll("button[type='button']").forEach((btn) => {
+    const code = btn.textContent?.trim();
+    if (!code || !authInput) return;
+    if (code.includes("ÉCL") || code.includes("ECLATE")) {
+      btn.addEventListener("click", () => {
+        authInput.value = code;
+        if (authStatus) {
+          authStatus.className =
+            "mt-7 max-w-md border-l-[3px] py-1 pl-4 text-sm leading-relaxed transition-colors duration-300 border-gold/60 text-charcoal-soft";
+          authStatus.innerHTML = "<p>Your result will appear here after verification.</p>";
+        }
+      });
+    }
+  });
+
+  authForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if (!authInput || !authStatus) return;
+    const code = normalizeBatch(authInput.value);
+    const ok = code && isPlausibleBatch(code);
+    if (ok) {
+      authStatus.className =
+        "mt-7 max-w-md border-l-[3px] py-1 pl-4 text-sm leading-relaxed transition-colors duration-300 border-[rgb(88,140,110)] text-charcoal";
+      authStatus.innerHTML =
+        '<p><span class="font-semibold text-[rgb(70,120,92)]">Authentic. </span>Batch ' +
+        code +
+        " was manufactured in our certified facility and is part of an authentic retail batch.</p>";
+    } else {
+      authStatus.className =
+        "mt-7 max-w-md border-l-[3px] py-1 pl-4 text-sm leading-relaxed transition-colors duration-300 border-[rgb(180,90,90)] text-charcoal";
+      authStatus.innerHTML =
+        '<p><span class="font-semibold text-[rgb(150,70,70)]">Not matched. </span>We could not match this code. Check the characters on the packaging, or contact support if you suspect a counterfeit.</p>';
+    }
+  });
+
+  // --- Store locator ---
+  const storesSection = document.getElementById("stores");
+  const storeInput = storesSection?.querySelector('input[type="text"], input:not([type])');
+  const storeSelect = storesSection?.querySelector("select");
+  const storeList = storesSection?.querySelector("ul");
+
+  function filterStores() {
+    if (!storeList) return;
+    const q = (storeInput?.value || "").trim().toLowerCase();
+    const type = storeSelect?.value || "All";
+    let visible = 0;
+    storeList.querySelectorAll(":scope > li").forEach((li) => {
+      const text = li.textContent?.toLowerCase() || "";
+      const typeEl = li.querySelector("span.text-rose-deep, span.uppercase");
+      const itemType = typeEl?.textContent?.trim() || "";
+      const matchesType = type === "All" || itemType === type;
+      const matchesQuery = !q || text.includes(q);
+      const show = matchesType && matchesQuery;
+      li.style.display = show ? "" : "none";
+      if (show) visible += 1;
+    });
+    let empty = storeList.querySelector("[data-empty]");
+    if (!visible) {
+      if (!empty) {
+        empty = document.createElement("li");
+        empty.dataset.empty = "1";
+        empty.className =
+          "rounded-2xl border border-line bg-white/50 px-5 py-6 text-sm text-charcoal-soft";
+        empty.textContent = "No locations matched. Try another city or channel.";
+        storeList.append(empty);
+      }
+      empty.style.display = "";
+    } else if (empty) {
+      empty.style.display = "none";
+    }
+  }
+
+  storeInput?.addEventListener("input", filterStores);
+  storeSelect?.addEventListener("change", filterStores);
+
+  // --- Routine builder ---
+  const routineRoot = document.querySelector("#routine .grid.gap-10, #routine [class*='lg:grid-cols']");
+  const routineSection = document.getElementById("routine");
+  const stepButtons = routineSection
+    ? [...routineSection.querySelectorAll("ol button[type='button']")]
+    : [];
+  const detailTitle = routineSection?.querySelector("h3.display");
+  const detailBody = detailTitle?.parentElement?.querySelector("p.mt-4, p.max-w-md");
+  const progressTrack = routineSection?.querySelector(".mt-8.flex.gap-2");
+
+  const steps = stepButtons.map((btn, index) => {
+    const title = btn.querySelector(".font-semibold")?.textContent?.trim() || "";
+    const detail = btn.querySelector(".text-charcoal-soft")?.textContent?.trim() || "";
+    const num = btn.querySelector(".display")?.textContent?.trim() || String(index + 1).padStart(2, "0");
+    return { title, detail, num, btn };
+  });
+
+  let active = 0;
+  let tick = 0;
+  let armed = false;
+  let timer = null;
+  const INTERVAL_MS = 5000;
+
+  function paintProgress() {
+    if (!progressTrack) return;
+    const bars = [...progressTrack.children];
+    bars.forEach((bar, index) => {
+      bar.innerHTML = "";
+      bar.className = "relative h-1.5 flex-1 overflow-hidden rounded-full bg-white/60";
+      if (index < active) {
+        const fill = document.createElement("span");
+        fill.className = "absolute inset-0 bg-rose";
+        bar.append(fill);
+      } else if (index === active && armed && !reduced) {
+        const fill = document.createElement("span");
+        fill.className = "routine-progress absolute inset-y-0 left-0 bg-rose";
+        fill.key = tick;
+        bar.append(fill);
+      } else if (index === active && armed && reduced) {
+        const fill = document.createElement("span");
+        fill.className = "absolute inset-0 bg-rose";
+        bar.append(fill);
+      }
+    });
+  }
+
+  function setActive(index, restartTimer = true) {
+    active = ((index % steps.length) + steps.length) % steps.length;
+    tick += 1;
+    steps.forEach((step, i) => {
+      const on = i === active;
+      step.btn.setAttribute("aria-pressed", String(on));
+      step.btn.className = on
+        ? "flex w-full cursor-pointer items-start gap-4 rounded-2xl border px-4 py-4 text-left transition-all duration-200 border-[rgba(217,122,140,0.45)] bg-white/75 shadow-[0_18px_40px_rgba(47,42,42,0.06)]"
+        : "flex w-full cursor-pointer items-start gap-4 rounded-2xl border px-4 py-4 text-left transition-all duration-200 border-transparent bg-transparent hover:bg-white/40";
+    });
+    const step = steps[active];
+    if (detailTitle && step) {
+      detailTitle.textContent = "Step " + step.num + ": " + step.title;
+    }
+    if (detailBody && step) {
+      detailBody.textContent =
+        step.detail +
+        " Keep the order simple. Consistency matters more than adding more products.";
+    }
+    paintProgress();
+    if (restartTimer) armTimer();
+  }
+
+  function clearTimer() {
+    if (timer) {
+      window.clearInterval(timer);
+      timer = null;
+    }
+  }
+
+  function armTimer() {
+    clearTimer();
+    if (!armed || reduced) return;
+    timer = window.setInterval(() => {
+      setActive(active + 1, true);
+    }, INTERVAL_MS);
+  }
+
+  steps.forEach((step, index) => {
+    step.btn.addEventListener("click", () => {
+      if (!armed) {
+        armed = true;
+      }
+      setActive(index, true);
+    });
+  });
+
+  if (routineRoot || routineSection) {
+    const observeTarget = routineRoot || routineSection;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        const near = entry.isIntersecting;
+        if (near && !armed) {
+          armed = true;
+          setActive(0, true);
+        } else if (near && armed) {
+          armed = true;
+          paintProgress();
+          armTimer();
+        } else if (!near) {
+          armed = false;
+          clearTimer();
+          paintProgress();
+        }
+      },
+      { root: null, rootMargin: "100px 0px", threshold: 0 },
+    );
+    observer.observe(observeTarget);
+  }
+
+  // Prevent generic form thank-you handlers on auth form (already handled)
+  document.querySelectorAll("form").forEach((form) => {
+    if (authForm && form === authForm) return;
+    form.setAttribute("action", "#");
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+    });
+  });
+})();
+</script>
+
+</body></html>
